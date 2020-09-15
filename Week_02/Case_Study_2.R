@@ -42,9 +42,9 @@ casestudy2plot=ggplot(temp,aes(YEAR,JJA))+
   xlab("Year")+
   ylab(expression(paste("Mean Summer Temperatures (",~degree,"C)",sep="")))+
   ggtitle("Mean Summer Temperatures in Buffalo, NY")+
-  labs(subtitle="  Summer includes June, July, and August 
-  Data from the Global Historical Climate Network
-  Red line is a LOESS smooth")+
+  labs(subtitle="Summer includes June, July, and August 
+Data from the Global Historical Climate Network
+Red line is a LOESS smooth")+
   geom_line()+
   geom_smooth(color="red")
 casestudy2plot
