@@ -50,7 +50,7 @@ Barret Schloerke, Ph.D.
 
   * Scatterplot specific variables to examine for correlation
 
-  * Creates a density graph for single variables
+  * Creates a distribution graph for single variables
 
   * Tests for correlation
 
@@ -60,7 +60,9 @@ Barret Schloerke, Ph.D.
 
 * Allows researcher to do proper analysis
 
-  * Basic 1st step when looking at a variable is a histogram
+  * Basic univariate analysis procedure is to plot a histogram
+  
+  * Other things to look at are summary statistics such as mean, median, IQR, etc.
 
 
 ## Univariate analysis (continued)  
