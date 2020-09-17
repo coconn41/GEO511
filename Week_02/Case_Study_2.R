@@ -36,8 +36,6 @@ glimpse(temp)
 #after adding NAs, structure of vars becomes dbl
 
 #create plot
-#remove pound key to save, run before creating plot
-#png(filename = "case_study2plot.png")
 casestudy2plot=ggplot(temp,aes(YEAR,JJA))+
   xlab("Year")+
   ylab(expression(paste("Mean Summer Temperatures (",~degree,"C)",sep="")))+
@@ -48,4 +46,5 @@ Red line is a LOESS smooth")+
   geom_line()+
   geom_smooth(color="red")
 casestudy2plot
-
+#remove pound key to save, run before creating plot
+#png(filename = "case_study2plot.png")
